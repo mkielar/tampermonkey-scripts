@@ -6,7 +6,6 @@
 // @author       mkielar
 // @license      MIT
 // @match        https://dev.azure.com/*/*/_build/results?*
-// @match        https://dev.azure.com/*/*/_git/*/pullrequest/*
 // @grant        GM_addStyle
 // ==/UserScript==
 
