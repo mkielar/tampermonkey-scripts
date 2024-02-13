@@ -1,12 +1,14 @@
 // ==UserScript==
 // @name         GCloud Columns Width Fix
 // @namespace    http://tampermonkey.net/
-// @version      0.1
+// @version      0.2
 // @description  Redesigns some GCloud Tables/Columns width to better visualise contents.
 // @author       mkielar
 // @license      MIT
 // @match        https://console.cloud.google.com/cloud-build/*
+// @run-at       document-start
 // @grant        GM_addStyle
+// @grant        window.onurlchange
 // ==/UserScript==
 
 (function() {
